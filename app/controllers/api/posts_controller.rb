@@ -29,6 +29,7 @@ class Api::PostsController < ApplicationController
   private
 
     def post_params
+      # { post: {title: 'cats', body: 'are cool'} }
       params.require(:post).permit(:title, :body)
     end
 end
