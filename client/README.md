@@ -1,9 +1,9 @@
             index
               | 
               app (nav routes)
-  home     about     posts (HOC)    404page
-                      /  \
-             add   form   list
+  home     about     posts (HOC)    404page        context
+                      /  \                           provider
+             add   form   list                         consumer
                            \
                             post
                               \ 
